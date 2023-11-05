@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortofoliomadeKanesya</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dde3797397.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/0f93798d7dbd239809f07f7b00e9891e.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portofolio">Kegiatan Saya</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Lets tell me.....</p>
+            <h1>HALLO, IK BEN <span>KANESYA</span><br> From University Of Muhammadiyah Malang</h1>
+        </div>
+    </div>
+</div>
+<!------about---->
+<div id="about">
+    <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="image/WhatsApp Image 2023-11-05 at 22.51.38.jpeg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-tittle">Over mij</h1>
+            <p>“Saya berumur 20 tahun, dan saya merupakan seorang mahasiswa s1 jurusan informatika malang. 
+                Saya memiliki minat dan bakat di bidang design, khususnya UX/UI.
+                Saya sudah bergelut di dunia design dalam teknologi dan kreatif selama di SMA hingga di kuliah selama 1 tahun.
+                Kreativitas yang saya miliki juga berperan penting dalam meningkatkan keterampilan leadership sehingga saya bisa 
+                mencari solusi saat ada kendala.</p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Studi</p>
+                <p class="tab-links" onclick="opentab('education')">Sertifikat</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                    <li><span>Web Deleopment</span><br>Web App Development</li>
+                    <li><span>Jaringan</span><br>Config program</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>SD</span><br>SD Negeri Dabasah 1 Bondowoso</li>
+                    <li><span>SMP</span><br>SMP Negeri 1 Bondowoso</li>
+                    <li><span>SMA</span><br>SMA Negeri 2 Bondowoso</li>
+                    <li><span>S1</span><br>Universitas Muhammadiyah Malang</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>P2KK</span><br>Saya pernah mengikuti program pembentukan kepribadian dan kepemimpinan</li>
+                    <li><span>PMM</span><br>Saya pernah mengikuti PMM yaitu pengabdian mahasiswa muhammadiyah. seperti kkn</li>
+                    <li><span>BitDegree Learn</span><br>Saya pernah mengikuti program pembelajaran HTML online di BitDegree </li>
+                    <li><span>Student Day UMM</span><br>Saya pernah mengikuti student day acara umm</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- -------service------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Service</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-css3"></i>
+                <h2>Web Design</h2>
+                <p>Saya Mempelajari bahasa html, css, js. Saya memiliki keahlian  
+                    design graphic sebesar 60%</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Data Sains</h2>
+                <p>Saya waktu Kuliah mempelajari Basis data, Stuktur data, statistik.
+                    Saya memiliki kemampuan pembelajaran dasar dari beberapa data sains </p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code-commit"></i>
+                <h2>Jaringan</h2>
+                <p>Saya waktu kuliah mempelajari tentang komunikasi data, jaringan
+                    komputer, sistem operasi. 
+                    Saya memiliki kemampuan tentang jaringan yang mempelajari jaringan memakai CLI</p>
+                    <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----portofolio----->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">Kegiatan saya</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/145c6b6d4e85e714232d7b93f1cc792f.jpg">
+                <div class="layer">
+                    <h3>Design Graphic</h3>
+                    <p>Saya melakukan berbagai design web yang dapat meningkatkan kemampuan saya tentang design</p>
+                    <a href="#"><i class="fa-brands fa-free-code-camp"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/LRM_EXPORT_20200808_092138.jpg">
+                <div class="layer">
+                    <h3>Travelling</h3>
+                    <p>Saya sangat suka jalan-jalan karena dapat membuat
+                        rasa jenuh saya hilang.
+                    </p>
+                    <a href="#"><i class="fa-brands fa-free-code-camp"></i></a>
+                    </div>
+                </div>
+            <div class="work">
+                <img src="image/IMG_20201114_130930.jpg">
+                <div class="layer">
+                    <h3>Play Archery</h3>
+                    <p>Saya saat ini mengikuti pelatihan panahan semenjak SMP.</p>
+                    <a href="#"><i class="fa-brands fa-free-code-camp"></i></a>
+                </div>
+             </div>
+             </div>
+         <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----contact---->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>citakanesya2312@webmail.umm.ac.id</p>
+                <p><i class="fa-solid fa-square-phone"></i>082142495021</p>
+                <div class="social-icon">
+                    <a href="https://anes.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/Modul 2 Pemrograman Web V4.1.pdf"class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="KANESYA">
+        <p>THIS IS PORTOFOLIO KANESYA</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwIKz0M5JOEfr-eR2U7QzZd45LdHASXBvQfUPmG5XngALUpABalLBIA2lcmORZsyiPvSw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
